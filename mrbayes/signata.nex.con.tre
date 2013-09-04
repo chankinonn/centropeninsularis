@@ -1,0 +1,122 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=30;
+	taxlabels
+	'Rana.macrops.AMNH16039'
+	'luctuosa.FMNH45046'
+	'hosii.RFI45313'
+	'erythraea.RMB2458'
+	'nicobariensis.RMB2086'
+	'megalonesia.AMNH16184.Kutai'
+	'banjarana.LSUHC5128'
+	'banjarana.ZRC8326.Cam.Highlands'
+	'siberu.BJE203'
+	'siberu.BJE236'
+	'centropeninsularis.DWNP0489'
+	'debussyi.Mistar.334.N.Sumatra'
+	'dubussyi.Mistar335.N.Sumatra'
+	'picturata.Marak.PararakFMNH235707'
+	'picturata.Kinabalu.ID7750.TYPE.LOC'
+	'picturata.Padang.Sumtatra.FMNH15550'
+	'pictaurata.Sarasah_Buntah.Sumatra.FMNH16399'
+	'moellendorffi.Irawan.RMB2978'
+	'moellendorffi.Est.Falls.RMB3013'
+	'mangyanum.RMB4964.paypayama'
+	'mangyanum.RMB4915.formon'
+	'similis.Isarog.RMB3341'
+	'similis.makiling.H2103'
+	'grandocula.CDS.1806.N.Samar'
+	'grandocula.RMB3787.Malagos'
+	'siganta.Mendolong.FMNH238842'
+	'signata.ID8398.Matang.W.Sarawak.TYPE.LOC'
+	'baramica.FMNH47870.Brunei'
+	'baramica.FMNH248218.Brunei'
+	'glandulosa.FMNH248254'
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] ('Rana.macrops.AMNH16039'[&length_mean=0.1951943904191501,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1936306945613382,prob=1.0,length_95%HPD={0.1436460301715611,0.2501119303742364}]:0.1936306945613382,'luctuosa.FMNH45046'[&length_mean=0.2190353940716198,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.2184902675092659,prob=1.0,length_95%HPD={0.1387875073610805,0.2981390798964553}]:0.2184902675092659,'hosii.RFI45313'[&length_mean=0.2979797546426438,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.2965462720600551,prob=1.0,length_95%HPD={0.2125211734563121,0.3866360476209538}]:0.2965462720600551,'erythraea.RMB2458'[&length_mean=0.2859592442889184,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.2838979986131077,prob=1.0,length_95%HPD={0.2226326852966557,0.3534119846510951}]:0.2838979986131077,'nicobariensis.RMB2086'[&length_mean=0.2598816666541245,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.2580978798700787,prob=1.0,length_95%HPD={0.1970936143493954,0.3203163480262428}]:0.2580978798700787,'megalonesia.AMNH16184.Kutai'[&length_mean=0.2730240504171777,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.2712880324035686,prob=1.0,length_95%HPD={0.2128553372597794,0.3345444895730894}]:0.2712880324035686,(('banjarana.LSUHC5128'[&length_mean=0.01132623212366228,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.01113324988376073,prob=1.0,length_95%HPD={0.00505138466888208,0.01830604964947398}]:0.01113324988376073,'banjarana.ZRC8326.Cam.Highlands'[&length_mean=0.01252961424061714,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.0122570988235096,prob=1.0,length_95%HPD={0.005913334025503785,0.01966778145617114}]:0.0122570988235096)[&length_mean=0.1374411558639576,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1366026517770727,prob=1.0,length_95%HPD={0.09600315656379722,0.1765714293423534}]:0.1366026517770727,(((('siberu.BJE203'[&length_mean=8.131517932682549E-4,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=6.307688868787836E-4,prob=1.0,length_95%HPD={4.73908120137218E-8,0.002249037496619211}]:6.307688868787836E-4,'siberu.BJE236'[&length_mean=0.001966334443610175,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.001787237297916082,prob=1.0,length_95%HPD={3.077135565514246E-4,0.004003827404826315}]:0.001787237297916082)[&length_mean=0.05921113242942254,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.05890227933390598,prob=1.0,length_95%HPD={0.04544052824796455,0.07579137300406104}]:0.05890227933390598,'centropeninsularis.DWNP0489'[&length_mean=0.05183611978633543,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.05153042859603298,prob=1.0,length_95%HPD={0.03779426752780173,0.06609097557845572}]:0.05153042859603298)[&length_mean=0.02692844405534111,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.02665741971401419,prob=1.0,length_95%HPD={0.01426338172606845,0.03983361390355223}]:0.02665741971401419,('debussyi.Mistar.334.N.Sumatra'[&length_mean=0.003253252951757984,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.003058534419341662,prob=1.0,length_95%HPD={4.609676172590997E-4,0.006394870612581756}]:0.003058534419341662,'dubussyi.Mistar335.N.Sumatra'[&length_mean=0.003139828818275141,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.002963750929929491,prob=1.0,length_95%HPD={1.651418024035429E-4,0.006157461529978207}]:0.002963750929929491)[&length_mean=0.0760595741243836,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.0757227687985757,prob=1.0,length_95%HPD={0.05792169863693514,0.09540847276779639}]:0.0757227687985757)[&length_mean=0.06581733708422888,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.06527836753699562,prob=1.0,length_95%HPD={0.04448990536659635,0.08738812052781177}]:0.06527836753699562,((('picturata.Marak.PararakFMNH235707'[&length_mean=4.739452391505637E-4,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=3.360199750572993E-4,prob=1.0,length_95%HPD={6.606130907067011E-8,0.001395832933707335}]:3.360199750572993E-4,'picturata.Kinabalu.ID7750.TYPE.LOC'[&length_mean=8.900466981692521E-4,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=7.471170965625875E-4,prob=1.0,length_95%HPD={1.081144676740884E-6,0.002144954995442993}]:7.471170965625875E-4)[&length_mean=0.06231794452412306,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.06196344643913342,prob=1.0,length_95%HPD={0.04628386285054195,0.07839873553600797}]:0.06196344643913342,('picturata.Padang.Sumtatra.FMNH15550'[&length_mean=0.00924890079745292,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.009084280614516362,prob=1.0,length_95%HPD={0.004641563459580484,0.01424982641356878}]:0.009084280614516362,'pictaurata.Sarasah_Buntah.Sumatra.FMNH16399'[&length_mean=0.0128092556202286,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.01256684994570212,prob=1.0,length_95%HPD={0.007476420164170123,0.01878330111195722}]:0.01256684994570212)[&length_mean=0.05543807007246863,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.05504679403095124,prob=1.0,length_95%HPD={0.04056021881267324,0.07052046288157642}]:0.05504679403095124)[&length_mean=0.02967850287916207,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.02925734708541891,prob=1.0,length_95%HPD={0.01872018238256995,0.04256722199641044}]:0.02925734708541891,(((('moellendorffi.Irawan.RMB2978'[&length_mean=8.376861444393229E-4,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=6.87240830963806E-4,prob=1.0,length_95%HPD={1.491081142023142E-7,0.002075813577543226}]:6.87240830963806E-4,'moellendorffi.Est.Falls.RMB3013'[&length_mean=5.163373861944461E-4,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=3.62888569569423E-4,prob=1.0,length_95%HPD={2.772392801233598E-8,0.001517550886251492}]:3.62888569569423E-4)[&length_mean=0.03978856144753601,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.03946642197225485,prob=1.0,length_95%HPD={0.02782822406215335,0.05178308861568838}]:0.03946642197225485,('mangyanum.RMB4964.paypayama'[&length_mean=0.001216206888577236,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.001051162374668371,prob=1.0,length_95%HPD={8.4700865612698E-6,0.002818961072259302}]:0.001051162374668371,'mangyanum.RMB4915.formon'[&length_mean=0.002468646073837059,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.002305208285936671,prob=1.0,length_95%HPD={6.210473065185133E-4,0.004807736103014317}]:0.002305208285936671)[&length_mean=0.0445591590729891,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.04436791586636135,prob=1.0,length_95%HPD={0.03242362809209413,0.05742199753705971}]:0.04436791586636135)[&length_mean=0.0334570776433474,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.03318941296545715,prob=1.0,length_95%HPD={0.02177785256798775,0.04541443901279695}]:0.03318941296545715,((('similis.Isarog.RMB3341'[&length_mean=0.01102633343765951,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.01084229073817726,prob=1.0,length_95%HPD={0.006225972260068048,0.01574136579021981}]:0.01084229073817726,'similis.makiling.H2103'[&length_mean=0.005040393539172276,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.004876198754147429,prob=1.0,length_95%HPD={0.002001342177667593,0.0084029261136201}]:0.004876198754147429)[&length_mean=0.002854510231247323,prob_range={0.9282857904558784,0.9285523860303919},prob(percent)="93",prob_stddev=1.885115385728395E-4,prob+-sd="93+-0",length_median=0.002672119658802873,prob=0.9284190882431351,length_95%HPD={5.359656361660327E-4,0.005582740855652802}]:0.002672119658802873,'grandocula.CDS.1806.N.Samar'[&length_mean=0.01590102494560224,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.01573465853552173,prob=1.0,length_95%HPD={0.01055662243442831,0.02227958416669105}]:0.01573465853552173)[&length_mean=0.003738699066972683,prob_range={0.9568115169288189,0.9589442815249267},prob(percent)="96",prob_stddev=0.001508092308582402,prob+-sd="96+-0",length_median=0.003537499219630565,prob=0.9578778992268728,length_95%HPD={5.475503972673586E-4,0.00717176107467565}]:0.003537499219630565,'grandocula.RMB3787.Malagos'[&length_mean=0.01021397068574406,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.0100284360866759,prob=1.0,length_95%HPD={0.005097402949337589,0.01551649673940413}]:0.0100284360866759)[&length_mean=0.05909679503660393,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.05868755524132138,prob=1.0,length_95%HPD={0.04471916760319413,0.07505685689647654}]:0.05868755524132138)[&length_mean=0.01161081843587924,prob_range={0.7763263129832044,0.7867235403892295},prob(percent)="78",prob_stddev=0.007351950004338973,prob+-sd="78+-1",length_median=0.01118522077733067,prob=0.781524926686217,length_95%HPD={0.003744488913120836,0.02042328702390753}]:0.01118522077733067,('siganta.Mendolong.FMNH238842'[&length_mean=0.01401765760508004,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.01379137465564528,prob=1.0,length_95%HPD={0.00761054252489238,0.02062302015125026}]:0.01379137465564528,'signata.ID8398.Matang.W.Sarawak.TYPE.LOC'[&length_mean=0.02621382676084009,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.02599468389028873,prob=1.0,length_95%HPD={0.01752543385546676,0.03486098796443897}]:0.02599468389028873)[&length_mean=0.05745865313297381,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.05698761915724171,prob=1.0,length_95%HPD={0.04280471134423984,0.07332648309076639}]:0.05698761915724171)[&length_mean=0.03226804971925835,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.03191937200797692,prob=1.0,length_95%HPD={0.01925103862160058,0.04545938756053276}]:0.03191937200797692)[&length_mean=0.02442802499890944,prob_range={0.9962676619568115,0.9981338309784058},prob(percent)="100",prob_stddev=0.001319580770009641,prob+-sd="100+-0",length_median=0.02387593058401024,prob=0.9972007464676087,length_95%HPD={0.01083503559987482,0.03921962711990529}]:0.02387593058401024)[&length_mean=0.0326320341720496,prob_range={0.9738736336976807,0.9762729938683018},prob(percent)="98",prob_stddev=0.001696603847155124,prob+-sd="98+-0",length_median=0.03074985816476479,prob=0.9750733137829912,length_95%HPD={0.007129580304816926,0.06315769362390933}]:0.03074985816476479)[&length_mean=0.04480229928057407,prob_range={0.808850973073847,0.8221807517995201},prob(percent)="82",prob_stddev=0.00942557692863958,prob+-sd="82+-1",length_median=0.04450631282869175,prob=0.8155158624366836,length_95%HPD={2.18758959130841E-4,0.0807855110676135}]:0.04450631282869175,(('baramica.FMNH47870.Brunei'[&length_mean=0.005795813752628985,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.005459429433225778,prob=1.0,length_95%HPD={0.001068001817823009,0.01095672996093419}]:0.005459429433225778,'baramica.FMNH248218.Brunei'[&length_mean=0.003355124389458021,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.002972894156312543,prob=1.0,length_95%HPD={2.890778903859774E-7,0.007519740571820388}]:0.002972894156312543)[&length_mean=0.1362135017788117,prob_range={0.9984004265529193,0.9989336177019461},prob(percent)="100",prob_stddev=3.770230771455612E-4,prob+-sd="100+-0",length_median=0.1359827644747617,prob=0.9986670221274327,length_95%HPD={0.01684698304089379,0.245536291006723}]:0.1359827644747617,'glandulosa.FMNH248254'[&length_mean=0.07716511945508545,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.07097416884203518,prob=1.0,length_95%HPD={0.004718640102523345,0.1575795432996297}]:0.07097416884203518)[&length_mean=0.06604140972094547,prob_range={0.5494534790722474,0.5577179418821647},prob(percent)="55",prob_stddev=0.005843857695756571,prob+-sd="55+-1",length_median=0.0442280876886598,prob=0.5535857104772061,length_95%HPD={1.379600001493639E-5,0.1949150882604996}]:0.0442280876886598)[&length_mean=0.0,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.0,prob=1.0,length_95%HPD={0.0,0.0}];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="prob";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=2;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
