@@ -1,0 +1,31 @@
+baramica.FMNH47870.Brunei,,
+baramica.FMNH248218.Brunei,0.004,,
+glandulosa.FMNH248254,0.069,0.07,,
+banjarana.LSUHC5128,0.158,0.155,0.155,,
+banjarana.ZRC8326.Cam.Highlands,0.159,0.156,0.154,0.015,,
+siberu.BJE203,0.138,0.136,0.147,0.154,0.154,,
+siberu.BJE236,0.136,0.135,0.148,0.152,0.155,0.001,,
+centropeninsularis.DWNP0489,0.139,0.14,0.156,0.152,0.155,0.087,0.087,,
+debussyi.Mistar.334.N.Sumatra,0.152,0.151,0.158,0.154,0.158,0.105,0.105,0.106,,
+dubussyi.Mistar335.N.Sumatra,0.151,0.15,0.156,0.155,0.156,0.103,0.103,0.105,0.003,,
+picturata.Marak.PararakFMNH235707,0.144,0.146,0.16,0.163,0.162,0.131,0.131,0.128,0.127,0.126,,
+picturata.Kinabalu.ID7750.TYPE.LOC,0.144,0.146,0.16,0.163,0.162,0.131,0.131,0.128,0.127,0.126,0,,
+picturata.Padang.Sumtatra.FMNH15550,0.136,0.138,0.147,0.156,0.155,0.131,0.132,0.123,0.14,0.14,0.083,0.083,,
+pictaurata.Sarasah_Buntah.Sumatra.FMNH16399,0.139,0.14,0.142,0.16,0.159,0.138,0.139,0.127,0.144,0.144,0.085,0.085,0.021,,
+moellendorffi.Irawan.RMB2978,0.146,0.143,0.167,0.174,0.177,0.147,0.147,0.151,0.144,0.143,0.114,0.114,0.106,0.109,,
+moellendorffi.Est.Falls.RMB3013,0.146,0.143,0.167,0.174,0.177,0.147,0.147,0.151,0.144,0.143,0.114,0.114,0.106,0.109,0,,
+mangyanum.RMB4964.paypayama,0.142,0.139,0.158,0.159,0.159,0.136,0.136,0.132,0.134,0.132,0.103,0.103,0.097,0.098,0.061,0.061,,
+mangyanum.RMB4915.formon,0.142,0.139,0.158,0.16,0.16,0.136,0.136,0.134,0.134,0.132,0.103,0.103,0.097,0.098,0.061,0.061,0.001,,
+siganta.Mendolong.FMNH238842,0.144,0.146,0.15,0.171,0.175,0.136,0.136,0.123,0.143,0.142,0.103,0.103,0.097,0.095,0.103,0.103,0.09,0.091,,
+signata.ID8398.Matang.W.Sarawak.TYPE.LOC,0.144,0.146,0.152,0.17,0.174,0.144,0.144,0.131,0.14,0.139,0.107,0.107,0.097,0.098,0.105,0.105,0.093,0.091,0.021,,
+similis.Isarog.RMB3341,0.16,0.162,0.168,0.181,0.184,0.139,0.139,0.147,0.135,0.134,0.105,0.105,0.102,0.097,0.093,0.093,0.098,0.098,0.091,0.091,,
+similis.makiling.H2103,0.159,0.16,0.168,0.179,0.181,0.132,0.132,0.143,0.134,0.132,0.105,0.105,0.103,0.099,0.093,0.093,0.091,0.091,0.09,0.093,0.011,,
+grandocula.CDS.1806.N.Samar,0.162,0.163,0.171,0.181,0.184,0.131,0.131,0.146,0.138,0.136,0.103,0.103,0.106,0.105,0.102,0.102,0.098,0.098,0.101,0.103,0.023,0.019,,
+grandocula.RMB3787.Malagos,0.154,0.155,0.164,0.175,0.177,0.127,0.127,0.136,0.134,0.132,0.107,0.107,0.101,0.097,0.094,0.094,0.09,0.09,0.089,0.091,0.024,0.019,0.026,,
+
+Table. Estimates of Evolutionary Divergence between Sequences
+The number of base differences per site from between sequences are shown. The analysis involved 24 nucleotide sequences. All positions containing gaps and missing data were eliminated. There were a total of 755 positions in the final dataset. Evolutionary analyses were conducted in MEGA5 [1].
+
+
+1. Tamura K., Peterson D., Peterson N., Stecher G., Nei M., and Kumar S. (2011). MEGA5: Molecular Evolutionary Genetics Analysis using Maximum Likelihood, Evolutionary Distance, and Maximum Parsimony Methods. Molecular Biology and Evolution 28: 2731-2739.
+Disclaimer: Although utmost care has been taken to ensure the correctness of the caption, the caption text is provided "as is" without any warranty of any kind. Authors advise the user to carefully check the caption prior to its use for any purpose and report any errors or problems to the authors immediately (www.megasoftware.net). In no event shall the authors and their employers be liable for any damages, including but not limited to special, consequential, or other damages. Authors specifically disclaim all other warranties expressed or implied, including but not limited to the determination of suitability of this caption text for a specific purpose, use, or application. 
